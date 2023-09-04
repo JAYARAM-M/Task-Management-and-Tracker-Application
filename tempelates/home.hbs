@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <div class="task-manager">
+        <div class="task-list" id="upcoming-tasks">
+            <h2>Upcoming Tasks</h2>
+            <ul id="upcoming-task-list"></ul>
+        </div>
+        <div class="task-list" id="in-progress-tasks">
+            <h2>In-Progress Tasks</h2>
+            <ul id="in-progress-task-list"></ul>
+        </div>
+        <div class="task-list" id="completed-tasks">
+            <h2>Completed Tasks</h2>
+            <ul id="completed-task-list"></ul>
+        </div>
+    </div>
+    <div class="task-details" id="task-details">
+        <h2>Task Details</h2>
+        <div id="task-name">Task Name: </div>
+        <div id="task-category">Category: </div>
+        <div id="task-timer">Timer: </div>
+    </div>
+    <div class="task-actions">
+        <input type="text" id="new-task-input" placeholder="Enter task name">
+        <input type="number" id="new-task-timer-input" placeholder="Enter timer in seconds">
+        <button id="add-task-btn">Add Task</button>
+        <button id="delete-task-btn">Delete Task</button>
+        <button id="edit-task-btn">Edit Task</button>
+        <button id="start-task-btn">Start Task</button>
+        <button id="complete-task-btn">Complete Task</button>
+    </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
