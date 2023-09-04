@@ -4,6 +4,9 @@ Need to Configure the Mongo.js file and u need to specify the collection in Mong
 Install all dependency using npm.
 to run : npm start
 
+Refer the Link for Screenshots of Applications : http://surl.li/kttej
+
+
 => Used JWT Authentication Tokens for Log-In and Sign Up Page.
 
 => Used Local MongoDB Compass, to store the username, email, password in Collections.
