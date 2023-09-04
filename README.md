@@ -5,6 +5,7 @@ Install all dependency using npm.
 to run : npm start
 
 => Used JWT Authentication Tokens for Log-In and Sign Up Page.
+
 => Used Local MongoDB Compass, to store the username, email, password in Collections.
 => Verified Using Jason Web Rokens.
 => If User Successfully Logged in will get redirected to Task Manager.
